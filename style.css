@@ -45,6 +45,21 @@ h2.section-title {
     padding-bottom: 31px;
 }
 
+.toggle-btn-custom {
+    padding: 0;
+    border: none;
+}
+
+.toggle-btn-custom:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: none;
+}
+
+.toggle-btn-custom>span {
+    width: 30px;
+    height: 30px;
+}
 
 /* .hero-left img {
     transition: .3s;
@@ -58,6 +73,14 @@ h2.section-title {
 .header-bg {
     background-color: #FFF9F4;
     padding-bottom: 129px;
+}
+
+.logo-custom-size {
+    width: 291px;
+}
+
+.nav-item-a-custom-padd {
+    padding: 10px 21px !important;
 }
 
 .hero-right {

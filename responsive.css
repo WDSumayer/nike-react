@@ -1,0 +1,122 @@
+@media only screen and (min-width: 1201px) and (max-width: 1400px) {}
+
+/* large device */
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+    .service-single-box-content {
+        padding: 20px;
+
+    }
+}
+
+
+/* medium device */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .nav-item-a-custom-padd {
+        padding: 10px 15px !important;
+    }
+
+    .logo-custom-size {
+        width: 200px;
+    }
+
+    .hero-right {
+        padding-left: 2rem;
+
+    }
+
+    .hero-right h1 {
+        font-size: 65px;
+        line-height: 60px;
+
+    }
+
+    .hero-right p {
+        padding-top: 0;
+
+    }
+
+    .service-left {
+        margin: 0;
+    }
+
+    .service-single-box-content {
+        padding: 10px 0;
+        text-align: center;
+    }
+}
+
+/* small device */
+@media only screen and (min-width: 577px) and (max-width: 767px) {
+    .section-title {
+        text-align: center;
+    }
+
+    .logo-custom-size {
+        width: 192px;
+    }
+
+    .hero-right {
+        padding: 0;
+        text-align: center;
+    }
+
+    .hero-right h1 {
+        font-size: 45px;
+        line-height: 45px;
+    }
+
+    .hero-right p {
+        font-size: 14px;
+        padding: 15px 40px;
+    }
+
+
+
+    .service-left {
+        margin: 0;
+    }
+
+    .service-single-box-content {
+        padding: 10px 0;
+        text-align: center;
+    }
+}
+
+/* x-small device */
+@media only screen and (max-width: 576px) {
+    .section-title {
+        text-align: center;
+    }
+
+    .logo-custom-size {
+        width: 192px;
+    }
+
+    .hero-right {
+        padding: 0;
+        text-align: center;
+    }
+
+    .hero-right h1 {
+        font-size: 45px;
+        line-height: 45px;
+    }
+
+    .hero-right p {
+        font-size: 14px;
+        padding: 15px 40px;
+    }
+
+    .navbar-brand img.logo-mobile-size {
+        width: 192px;
+    }
+
+    .service-left {
+        margin: 0;
+    }
+
+    .service-single-box-content {
+        padding: 10px 0;
+        text-align: center;
+    }
+}
