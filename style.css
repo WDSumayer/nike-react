@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@300;400;500;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2 {
+    font-family: 'Bebas Neue', cursive;
+}
+
+.btn-custom {
+    background: rgb(60, 78, 224);
+    background: linear-gradient(180deg, rgba(60, 78, 224, 1) 0%, rgba(54, 67, 176, 1) 100%);
+    display: inline-block;
+    padding: 17px 30px;
+    border: none;
+    border-radius: 9px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.btn-custom i {
+    padding-right: 7px;
+}
+
+h2.section-title {
+    font-size: 48px;
+    color: #363958;
+    text-transform: uppercase;
+    padding-bottom: 31px;
+}
+
+
+/* .hero-left img {
+    transition: .3s;
+    transform: scale(1);
+}
+
+.hero-left img:hover {
+    transform: scale(1.1);
+} */
+
+.header-bg {
+    background-color: #FFF9F4;
+    padding-bottom: 129px;
+}
+
+.hero-right {
+    padding-left: 8rem;
+}
+
+.hero-right h1 {
+    font-size: 87px;
+    line-height: 91px;
+    color: #363958;
+}
+
+.hero-right h1.color-differ {
+    color: #FA804C;
+}
+
+.hero-right p {
+    font-size: 16px;
+    line-height: 26px;
+    padding-right: 40px;
+    padding-top: 15px;
+}
+
+
+.casual-shoes-area {
+    padding: 49px 0 99px 0;
+}
+
+.card-shadow-custom,
+.service-left-single-box {
+    box-shadow: 0 6px 21px 0 #eee
+}
+
+.card-top-img {
+    background-color: #F1F1F1;
+
+}
+
+.card-body-content,
+.card-body-footer {
+    margin-top: 20px;
+}
+
+.card-body-content h5,
+.service-single-box-content h5 {
+    font-size: 23px;
+    font-weight: 700;
+    color: #363958;
+    padding-bottom: 13px;
+}
+
+.card-body-footer h3 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #FA804C;
+}
+
+
+.service-area {
+    padding: 45px 0 70px 0;
+}
+
+.service-left {
+    margin-right: 45px;
+}
+
+.service-single-box-content {
+    padding: 0 80px 0 37px;
+}
